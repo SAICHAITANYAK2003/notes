@@ -1,9 +1,10 @@
-##Vercel.json
-<hr/>
 
- Vercel json config for express backend  :
+## vercel.json
 
- {
+Vercel json config for express backend
+
+```bash
+  {
     "version": 2,
     "builds": [
         {
@@ -23,10 +24,11 @@
         }
     ]
 }
+```
 
+Vercel json config to support React Router in frontend
 
-Vercel json config to support React Router in frontend :
-
+```bash
   {
     "rewrites": [
       {
@@ -35,6 +37,5 @@ Vercel json config to support React Router in frontend :
       }
     ]
   }
-
-
+```
 
